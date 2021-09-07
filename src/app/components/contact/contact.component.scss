@@ -1,0 +1,62 @@
+section.contato {
+    display: flex;
+    height: 74.5vh;
+    justify-content: space-around;
+    align-items: center;
+
+    .contato-form {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: #FFBE51;
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 435px;
+
+
+            input {                
+                margin-bottom: 15px;
+                height: 24px;
+                padding: 10px;
+                border: solid 0.5px rgba(0, 0, 0, 0.15);
+            }
+            textarea {
+                padding: 10px;
+                font-family: 'Nunito', sans-serif;
+                margin-bottom: 15px;
+                border: solid 0.5px rgba(0, 0, 0, 0.15);
+                resize: none;
+            }
+
+            button {
+                width: 100%;
+                color: white;
+                border: none;
+                height: 35px;
+                background: #FFBE51;
+            }
+        }
+
+    }
+
+    .contato-mapa{
+        font-size: 16px;
+
+        .contato p a, address{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #000;
+            font-style: normal;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+    }
+
+}

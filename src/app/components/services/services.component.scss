@@ -1,0 +1,68 @@
+h2{
+    color: #FFBE51;
+    text-transform: uppercase;
+    margin: 5rem 0;
+    font-size: 40px;
+}
+
+h2.servicos-titulo {
+    text-align: center;
+    margin-top: 55px;
+}
+
+article.servicos .container {
+    color: #000;
+    margin: 0 auto;
+
+    .servicos-wrapper {
+        display:flex;
+        justify-content: center;
+        margin: 7rem 0;
+
+        .img-wrapper {
+            width: 266px;
+            height: 266px;
+            background-size: 266px 266px;
+        }
+
+        .servicos-texto {
+            width:33%;
+            margin-left: 100px;
+
+            .price-title {
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                h3 {
+                    color: #000;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 34px;
+                }
+                p {
+                    font-size: 34px;
+                    font-weight: 400;
+                }
+            }
+
+            .servicos-description{
+                color: #757575;
+                font-weight: 400;
+                margin-top: 20px;
+            }
+        }
+    }    
+}  
+
+button {
+    background-color: #FFBE51;
+    width: 245px;
+    height: 32px;
+    border: none;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;    
+}

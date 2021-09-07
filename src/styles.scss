@@ -1,1 +1,204 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    width: 100vw;
+    max-width: 100%;
+    // position: relative;
+    // min-height: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 18px;
+}
+
+@media (max-width: 640px){
+    html {
+       display: flex;
+       flex-direction: column;
+       overflow-x: hidden;
+   }
+   
+   header {
+       height:150px;
+   }
+
+
+   header h1 img {
+       height: 80px;
+       width: auto;
+   }
+
+   header .container .links ul {
+       justify-content: space-evenly;
+       width: 100vw;
+   }
+
+   header .container .links ul li{
+       padding: 0;
+       margin: 0;
+       font-size: 20px;
+       text-align: center;
+   }
+
+   section.texto-principal h2, .texto-secundario h2, .servicos-texto h3, .servicos-texto .price{
+       font-size: 24px;
+   }
+
+   header .container, .texto-principal .container, .servicos-wrapper, .servicos-cards, .texto-secundario .container, .price-title{
+       flex-direction: column;
+       justify-content: flex-start;
+       flex-wrap: wrap;
+   }
+
+   .servicos-cards{
+       margin: 0 auto;
+   }
+
+   .cards-wrapper{
+       padding-bottom: 45px;
+   }
+
+   .cards-wrapper .card-img, .img-vet, .img-banho, .img-tosa {
+       width:300px;
+   }       
+
+
+   .texto-principal .container, .texto-secundario .container{
+       margin: 2.5em 0 3em 0;
+       height: 100%;
+   }
+
+
+   .texto-principal .container h2{
+       width:90%;
+       margin: 30px 10px 0 10px;
+       text-align: center;
+       order: 1;
+   }
+
+   .texto-principal .container img {
+       margin-bottom: 0;
+   }
+
+   .servicos-titulo h2 {
+       margin: 0;
+       padding: 0;
+   }
+
+
+   .texto-secundario .container .texto-wrapper {
+       width: 85%;
+       font-size: 18px;
+   }
+
+   .servicos-description, .servicos-wrapper .servicos-texto, .img-wrapper{
+       margin: 0 auto;
+   }
+
+   .servicos-wrapper .servicos-texto, .img-wrapper{
+       width: 85%;
+   }
+
+   .servicos-titulo{
+       margin: 0;
+       padding: 0;
+   }
+
+   .servicos-wrapper {
+       margin: 3em auto;
+   }
+
+   button{
+       width: 100%;
+       margin: 25px auto 0;
+   }
+
+   .servicos-description {
+       font-size: 18px;
+   }
+
+   .price-title {
+       align-items: flex-start;
+   }
+
+   .servicos hr {
+       width: 150px;
+   }
+
+   section.contato, .login {
+       flex-direction: column;
+       height: auto;
+       margin: 0 auto;
+       padding: 0;
+   }
+
+   .contato-titulo{
+       text-align: center;
+   }
+
+   .contato h2{
+       margin-top: 55px;
+   }
+
+
+   .contato-mapa, .contato-form {
+       width: 100%;
+       margin: 0;
+   }
+
+   .contato-mapa iframe{
+       display: block;
+       height: 200px;
+       width: auto;
+       margin: 10px auto;
+   }
+
+   .contato-form form {
+       margin: 0 auto;
+   }
+
+   .contato-mapa{
+       width: 80%;
+       margin: 30px 0;
+       text-align: center;
+
+   }
+
+   .ilustra-login, .ilustra-cadastro {
+       display: none;
+   }
+
+   .login-box{
+       box-shadow: none;
+   }
+
+   .login-wrapper, .login-box{
+       min-height: calc(100vh - 210px);
+   }
+
+   img {
+       width: 60%;
+   }
+
+   footer .footer-wrapper{
+       font-size: 16px;
+   }
+
+   footer.footer-contato {
+       
+       width: 100%;
+
+   }
+   
+   .logo-footer, iframe {
+       display: none;
+   }
+}
